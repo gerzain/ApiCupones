@@ -12,6 +12,10 @@ mongoose.connect('mongodb://localhost/cupones', function(err, res) {
 
 
 
+
+
+
+
 // Middlewares
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
